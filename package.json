@@ -1,0 +1,17 @@
+{
+  "name": "liqui-sight",
+  "version": "1.0.0",
+  "description": "LiquiSight - AI Financial Copilot",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:website\"",
+    "dev:backend": "cd extension/backend && npm run dev",
+    "dev:website": "cd website && npm start",
+    "install:all": "cd extension/backend && npm install && cd ../../website && npm install",
+    "start:backend": "cd extension/backend && npm start",
+    "start:website": "cd website && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
