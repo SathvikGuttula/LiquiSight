@@ -158,10 +158,7 @@ Create extension/backend/.env:
 
 env
 
-GOOGLE_API_KEY=your_gemini_key_here
-# or any of these names; server.js checks all three:
-# GEMINI_API_KEY=your_gemini_key_here
-# LIQUISIGHT_API_KEY=your_gemini_key_here
+
 Run the backend:
 
 Bash
@@ -186,7 +183,7 @@ Create .env.local in the Next.js app root:
 
 env
 
-GOOGLE_API_KEY=your_gemini_key_here
+GOOGLE_API_KEY=
 
 # If you use Supabase for scans:
 NEXT_PUBLIC_SUPABASE_URL=...
